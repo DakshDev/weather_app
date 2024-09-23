@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background: #323232;
+    display: grid;
+    align-items: start;
+    align-content: start;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px 0px;
+}
+
+input, button{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 3px;
+    color: #000000;
+}
+button{
+    background: rgb(15, 180, 15);
+    color: #ffffff;
+    cursor: pointer;
+}
+button:active{
+    background: rgb(14, 134, 14);
+}
